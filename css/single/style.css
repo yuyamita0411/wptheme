@@ -1,0 +1,43 @@
+.indextitle{
+	color: #ff7575;
+}
+.indexarea{
+	border: solid 1px #ff7575;
+}
+.descriptionarea p,
+.articleinner p{
+	line-height: 2;
+}
+
+.articleinner img{
+	padding: 2rem 0 2rem 0;
+}
+
+.articleinner img{
+	margin: 0 auto;
+}
+.articleinner img{
+	max-width: 100%;
+}
+.articleinner img{
+	object-fit: contain;
+}
+@media screen and (min-width: 768px){
+	.thumbnailimg{
+	    height: 20em;
+	}
+	.descriptionarea p,
+	.articleinner p{
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.thumbnailimg{
+	    height: 10em;
+	}
+	.descriptionarea p,
+	.articleinner p{
+		font-size: 16px;
+	}
+}
